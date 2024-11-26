@@ -3,7 +3,7 @@
   <head>
     <!-- Page setup -->
     <meta charset="utf-8">
-    <title>Chat widget - Intercom</title>
+    <title>Chat widget DevChat</title>
     <meta name="description" content="A website to test chat widget">
     <meta name="author" content="Information about the author here">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
@@ -20,8 +20,6 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
 
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
     
   </head>
   
@@ -29,7 +27,7 @@
 
     <header id="header">
       <img src="logo.jpg">
-      <h1>Simple Website widget - Intercom</h1>
+      <h1>Boldchat widget dev-chat-integration</h1>
       
                 
     </header>
@@ -41,32 +39,21 @@
           <div id="home" class="content-region hide">
             <h2>Home</h2>
             <p>
-              This is a simple website used for testing chat widget - Intercom.
+              This is a simple website used for testing chat widget by front end team. (dev chat tenant)
             </p>
           </div>
-          
-        
+                 
           
         </div>
       </div>
     </div>
 
     <footer>  
-      Find the chat widget on the right bottom of this page
+      Find the dev chat widget on the right bottom of this page
     </footer>
     
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
-<script>
-  window.intercomSettings = {
-    api_base: "https://api-iam.intercom.io",
-    app_id: "hq1iw6pf",
-  };
-</script>
-
-<script>
-// We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/hq1iw6pf'
-(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/hq1iw6pf';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-</script>
+    <script src="https://dev-chat-integration.bolddesk.com/chatwidget-api/widget/v1/7dcb3f09-41b4-4b2d-a665-45141355a76a" defer async></script>
   </body>
 </html>
